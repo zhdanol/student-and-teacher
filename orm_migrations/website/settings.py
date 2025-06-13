@@ -26,6 +26,7 @@ ALLOWED_HOSTS = []
 
 SITE_ID = 1
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Application definition
 
@@ -74,10 +75,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'netology_orm_migrations',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
         'HOST': '127.0.0.1',
         'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': '1589',
     }
 }
 
